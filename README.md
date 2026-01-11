@@ -2,6 +2,14 @@
 
 Python implementations of cryptographic hash functions using the hashlib library.
 
+## Installation
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+# No external dependencies required
+```
+
 ## sha512.py
 
 Calculate SHA-512 hash of a file, producing output identical to the `sha512sum` command.
